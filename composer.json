@@ -12,5 +12,11 @@
             "email": "sentleitner@schueler.hakzell.at"
         }
     ],
-    "require": {}
+    "repositories": [{
+        "type": "git",
+        "url": "git@github.com:hannalackner/weather.git"}],
+    "minimum-stability": "dev",
+    "require": {
+        "hannalackner/weather": "1.0.1"
+    }
 }
